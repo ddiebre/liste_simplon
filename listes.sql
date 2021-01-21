@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  jeu. 21 jan. 2021 à 18:46
+-- Généré le :  jeu. 21 jan. 2021 à 18:19
 -- Version du serveur :  10.3.15-MariaDB
 -- Version de PHP :  7.3.6
 
@@ -52,8 +52,7 @@ INSERT INTO `listes` (`ID`, `nom`, `prenom`, `email`, `naissance`, `genre`) VALU
 (11, 'MIHIN', 'sara', 'ibblaise832@gmail.com', '1996-06-25', 'femme'),
 (12, 'DIEBRE', 'Davy', 'ddiebre@gmail.com', '2020-10-01', 'homme'),
 (13, 'DIEBRE', 'aminata', 'ddiebre@gmail.com', '2020-10-01', 'homme'),
-(14, 'ouedraogo', 'victorine', 'ibblaise832@gmail.com', '2020-06-01', 'femme'),
-(15, 'MIHIN', 'mignon', 'ibblaise832@gmail.com', '2020-06-01', 'homme');
+(14, 'ouedraogo', 'victorine', 'ibblaise832@gmail.com', '2020-06-01', 'femme');
 
 --
 -- Index pour les tables déchargées
@@ -73,7 +72,7 @@ ALTER TABLE `listes`
 -- AUTO_INCREMENT pour la table `listes`
 --
 ALTER TABLE `listes`
-  MODIFY `ID` int(60) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `ID` int(60) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
